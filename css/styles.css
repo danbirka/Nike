@@ -2,7 +2,11 @@
 
 /* header */
 
-.header {}
+.header {
+    background-color: #012D63;
+    display: flex;
+
+}
 
 .header__image {}
 
