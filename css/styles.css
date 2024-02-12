@@ -1,0 +1,57 @@
+.container {}
+
+/* header */
+
+.header {}
+
+.header__image {}
+
+.header__nav {}
+
+.header__list {}
+
+.header__item {}
+
+.header__nav__link {}
+
+/* hero */
+
+.hero__section {
+    background-image: url(../img/hero__section/Group37\(1\)1.png);
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 858px;
+}
+
+.hero__section__img {}
+
+.hero__section__h1 {}
+
+.hero__section__subtitle {}
+
+.hero__section__text {}
+
+/* custom__nikes */
+
+.hero__section__button {}
+
+.custom__nikes {
+    background-image: url(../img/custom__nikes/Group81.png);
+    background-repeat: no-repeat;
+}
+
+.custom__nikes__list {}
+
+.custom__nikes__item {
+ display: flex;
+
+}
+
+.custom__nikes__title {
+    color: #FFFFFF;
+}
+
+.custom__nikes__img {
+    width: 240px;
+    height: 240px;
+}
