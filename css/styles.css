@@ -1,61 +1,161 @@
-.container {}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 
 /* header */
 
 .header {
-    background-color: #012D63;
-    display: flex;
+    width: 1440px;
+    height: 93px;
+    flex-shrink: 0;
+    background: #012D63;
+    background-position: center;
+    padding-top: 30px;
+    padding-bottom: 33px;
+}
+
+.header__image {
+    width: 100px;
+    height: 60px;
+    flex-shrink: 0;
+    background: url(../img/header/logo.png), lightgray 50% / cover no-repeat;
+
 
 }
 
-.header__image {}
-
 .header__nav {}
 
-.header__list {}
+.header__list {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
 
 .header__item {}
 
-.header__nav__link {}
+.header__nav__link {
+    width: 112px;
+height: 30px;
+flex-shrink: 0;
+color: #FFF;
+
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
 
 /* hero */
 
 .hero__section {
-    background-image: url(../img/hero__section/Group37\(1\)1.png);
-    background-repeat: no-repeat;
+    background: url(../img/hero__section/Group37\(1\)1.png), lightgray 50% / cover no-repeat;
     width: 1440px;
     height: 858px;
+    flex-shrink: 0;
 }
 
-.hero__section__img {}
+.hero__section__img {
+    width: 160px;
+height: 120px;
+flex-shrink: 0;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+
+
+}
 
 .hero__section__h1 {}
 
 .hero__section__subtitle {}
 
-.hero__section__text {}
+.hero__section__text { 
+    color: #FFF;
+
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hero__section__logo {
+    width: 178px;
+height: 86px;
+flex-shrink: 0;
+color: #FFF;
+
+font-family: "PT Serif";
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.hero__section__button {
+
+    color: #FFF;
+
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+    width: 254px;
+height: 67px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #8E32C6;
+}
 
 /* custom__nikes */
 
-.hero__section__button {}
+
 
 .custom__nikes {
-    background-image: url(../img/custom__nikes/Group81.png);
-    background-repeat: no-repeat;
+    background: url(../img/custom__nikes/Group81.png), lightgray 0px -384px / 100% 227.888% no-repeat;
+    width: 1440px;
+height: 606px;
+flex-shrink: 0;
 }
 
-.custom__nikes__list {}
+.custom__nikes__list {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
 
 .custom__nikes__item {
- display: flex;
+    display: flex;
 
 }
 
 .custom__nikes__title {
-    color: #FFFFFF;
+    width: 159px;
+height: 102px;
+flex-shrink: 0;
+color: #FFF;
+
+text-align: center;
+font-family: "Playfair Display";
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
 }
 
 .custom__nikes__img {
+    width: 160px;
+    height: 120px;
+    flex-shrink: 0;
+    background: url(../img/custom__nikes/Звёзды.svg ) url(../img/custom__nikes/Краски.svg) url(../img/custom__nikes/Грузан.png), lightgray 50% / cover no-repeat;
     width: 240px;
-    height: 240px;
+height: 240px;
+flex-shrink: 0;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+
+
 }
