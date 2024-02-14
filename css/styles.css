@@ -1,8 +1,11 @@
 .container {
     width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
+
 
 /* header */
 
@@ -37,42 +40,58 @@
 
 .header__nav__link {
     width: 112px;
-height: 30px;
-flex-shrink: 0;
-color: #FFF;
+    height: 30px;
+    flex-shrink: 0;
+    color: #FFF;
 
-font-family: Roboto;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 /* hero */
 
 .hero__section {
-    background: url(../img/hero__section/Group37\(1\)1.png), lightgray 50% / cover no-repeat;
+    background: url(../img/hero__section/Group1.png), lightgray 50% / cover no-repeat;
     width: 1440px;
     height: 858px;
     flex-shrink: 0;
-    
+
 
 }
 
 .hero__section__img {
     width: 160px;
-height: 120px;
-flex-shrink: 0;
-background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    height: 120px;
+    flex-shrink: 0;
+    background: url(../img/hero__section/Group1.png), lightgray 50% / cover no-repeat;
 
 
 }
 
-.hero__section__h1 {}
+.hero__section__h1 {
+    color: #FFF;
 
-.hero__section__subtitle {}
+    font-family: "Playfair Display";
+    font-size: 144px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
-.hero__section__text { 
+.hero__section__subtitle {
+    color: #FFF;
+
+    font-family: "Playfair Display";
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hero__section__text {
     color: #FFF;
 
     font-family: Roboto;
@@ -84,32 +103,32 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 
 .hero__section__logo {
     width: 178px;
-height: 86px;
-flex-shrink: 0;
-color: #FFF;
+    height: 86px;
+    flex-shrink: 0;
+    color: #FFF;
 
-font-family: "PT Serif";
-font-size: 48px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    font-family: "PT Serif";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .hero__section__button {
 
     color: #FFF;
 
-font-family: Roboto;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 
     width: 254px;
-height: 67px;
-flex-shrink: 0;
-border-radius: 10px;
-background: #8E32C6;
+    height: 67px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #8E32C6;
 }
 
 /* custom__nikes */
@@ -117,40 +136,40 @@ background: #8E32C6;
 
 
 .custom__nikes {
-    background: url(../img/custom__nikes/Group81.png), lightgray 0px -384px / 100% 227.888% no-repeat;
+    background: url(../img/custom__nikes/Group81.png) url(../img/), lightgray 0px -384px / 100% 227.888% no-repeat;
     width: 1440px;
-height: 606px;
-flex-shrink: 0;
+    height: 606px;
+    flex-shrink: 0;
 }
 
 .custom__nikes__list {
-    display: flex;
-    gap: 30px;
-    align-items: center;
 
-    stroke-width: 5px;
-stroke: #8E32C6;
-
-
+background-image: url(../img/custom__nikes/Group81.png);
+display: flex;
+border: 5px solid #8E32C6;
+padding: 50px;
+background-repeat: no-repeat;
+  
 }
 
 .custom__nikes__item {
     display: flex;
-
+    border-right: 1px solid #FFF;
+  
 }
 
 .custom__nikes__title {
     width: 159px;
-height: 102px;
-flex-shrink: 0;
-color: #FFF;
+    height: 102px;
+    flex-shrink: 0;
+    color: #FFF;
 
-text-align: center;
-font-family: "Playfair Display";
-font-size: 36px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    text-align: center;
+    font-family: "Playfair Display";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 
 }
 
@@ -160,8 +179,8 @@ line-height: normal;
     flex-shrink: 0;
     background: url(../img/custom__nikes/Звёзды.svg ) url(../img/custom__nikes/Краски.svg) url(../img/custom__nikes/Грузан.png), lightgray 50% / cover no-repeat;
     width: 240px;
-height: 240px;
-flex-shrink: 0;
+    height: 240px;
+    flex-shrink: 0;
 
 
 
@@ -169,30 +188,32 @@ flex-shrink: 0;
 
 .Reviews {
     width: 1440px;
-height: 520px;
-flex-shrink: 0;
-background: url(../img/Reviews__section/Group\ 6\ 1.png), lightgray 0px -9px / 100% 255.769% no-repeat;
+    height: 520px;
+    flex-shrink: 0;
+    background: url(../img/Reviews__section/Group\ 6\ 1.png), lightgray 0px -9px / 100% 255.769% no-repeat;
 }
-.Reviews__section__title {
-}
-.Reviews__section__list {
-}
-.Reviews__section__item {
-}
+
+.Reviews__section__title {}
+
+.Reviews__section__list {}
+
+.Reviews__section__item {}
+
 .Reviews__section__img::before {
     content: "";
     display: block;
     width: 255px;
     height: 292px;
     flex-shrink: 0;
-   display: flex;
-   gap: 30px;
+    display: flex;
+    gap: 30px;
 }
 
 .Reviews__section__img:nth-child(1)::before {
     border-radius: 15px;
     background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
     background-position: center;
+
 }
 
 .Reviews__section__img:nth-child(2)::before {
@@ -212,9 +233,9 @@ background: url(../img/Reviews__section/Group\ 6\ 1.png), lightgray 0px -9px / 1
 .Reviews__section__title {
     color: #FFF;
 
-font-family: Roboto;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
