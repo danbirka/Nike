@@ -55,6 +55,8 @@ line-height: normal;
     width: 1440px;
     height: 858px;
     flex-shrink: 0;
+    
+
 }
 
 .hero__section__img {
@@ -125,6 +127,11 @@ flex-shrink: 0;
     display: flex;
     gap: 30px;
     align-items: center;
+
+    stroke-width: 5px;
+stroke: #8E32C6;
+
+
 }
 
 .custom__nikes__item {
