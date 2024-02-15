@@ -136,15 +136,13 @@
 
 
 .custom__nikes {
-    background: url(../img/custom__nikes/Group81.png) url(../img/), lightgray 0px -384px / 100% 227.888% no-repeat;
+    background: url(../img/custom__nikes/Group81.png), lightgray 0px -384px / 100% 227.888% no-repeat;
     width: 1440px;
     height: 606px;
     flex-shrink: 0;
 }
 
 .custom__nikes__list {
-
-background-image: url(../img/custom__nikes/Group81.png);
 display: flex;
 border: 5px solid #8E32C6;
 padding: 50px;
@@ -177,7 +175,7 @@ background-repeat: no-repeat;
     width: 160px;
     height: 120px;
     flex-shrink: 0;
-    background: url(../img/custom__nikes/Звёзды.svg ) url(../img/custom__nikes/Краски.svg) url(../img/custom__nikes/Грузан.png), lightgray 50% / cover no-repeat;
+    background: url(../img/custom__nikes/stars.svg) url(../img/custom__nikes/paints.svg) url(../img/custom__nikes/Georgian.png), lightgray 50% / cover no-repeat;
     width: 240px;
     height: 240px;
     flex-shrink: 0;
@@ -190,14 +188,40 @@ background-repeat: no-repeat;
     width: 1440px;
     height: 520px;
     flex-shrink: 0;
-    background: url(../img/Reviews__section/Group\ 6\ 1.png), lightgray 0px -9px / 100% 255.769% no-repeat;
+    background: url(../img/Reviews__section/Group61.png), lightgray 0px -9px / 100% 255.769% no-repeat;
 }
 
-.Reviews__section__title {}
+.Reviews__section__title {
+    width: 175px;
+height: 65px;
+flex-shrink: 0;
+color: #FFF;
 
-.Reviews__section__list {}
+text-align: center;
+font-family: "Playfair Display";
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 
-.Reviews__section__item {}
+}
+
+.Reviews__section__list {
+    display: flex;
+
+}
+
+.Reviews__section__item {
+    width: 255px;
+height: 292px;
+flex-shrink: 0;
+border-radius: 15px;
+background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
+
+box-shadow: 0px 30px 0px -13px #533978, 0px 14px 0px -5px #7B54B2;
+}
+
+
 
 .Reviews__section__img::before {
     content: "";
@@ -207,12 +231,14 @@ background-repeat: no-repeat;
     flex-shrink: 0;
     display: flex;
     gap: 30px;
+  
 }
 
 .Reviews__section__img:nth-child(1)::before {
     border-radius: 15px;
     background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
     background-position: center;
+margin-right: 93px;
 
 }
 
@@ -221,6 +247,7 @@ background-repeat: no-repeat;
     background: linear-gradient(137deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
     box-shadow: 0px 30px 0px -13px #61337C, 0px 14px 0px -5px #9159B1;
     background-position: center;
+    margin-right: 93px;
 }
 
 .Reviews__section__img:nth-child(3)::before {
@@ -238,4 +265,24 @@ background-repeat: no-repeat;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+/* Order__section */
+
+.Order__section {
+    background-image: url(../img/Order__section/Group21.png);
+}
+.Order__section__title {
+    color: #FFF;
+font-family: "Playfair Display";
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.Order__section__list {
+}
+.Order__section__item {
+}
+.Order__section__button {
 }
