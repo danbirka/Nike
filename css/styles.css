@@ -54,7 +54,7 @@
 /* hero */
 
 .hero__section {
-    background: url(../img/hero__section/Group1.png), lightgray 50% / cover no-repeat;
+    background: url(../img/hero__section/group1.png), lightgray 50% / cover no-repeat;
     width: 1440px;
     height: 858px;
     flex-shrink: 0;
@@ -66,7 +66,7 @@
     width: 160px;
     height: 120px;
     flex-shrink: 0;
-    background: url(../img/hero__section/Group1.png), lightgray 50% / cover no-repeat;
+    background: url(../img/hero__section/group1.png), lightgray 50% / cover no-repeat;
 
 
 }
@@ -136,24 +136,24 @@
 
 
 .custom__nikes {
-    background: url(../img/custom__nikes/Group81.png), lightgray 0px -384px / 100% 227.888% no-repeat;
+    background: url(../img/custom__nikes/group81.png), lightgray 0px -384px / 100% 227.888% no-repeat;
     width: 1440px;
     height: 606px;
     flex-shrink: 0;
 }
 
 .custom__nikes__list {
-display: flex;
-border: 5px solid #8E32C6;
-padding: 50px;
-background-repeat: no-repeat;
-  
+    display: flex;
+    border: 5px solid #8E32C6;
+    padding: 50px;
+    background-repeat: no-repeat;
+
 }
 
 .custom__nikes__item {
     display: flex;
     border-right: 1px solid #FFF;
-  
+
 }
 
 .custom__nikes__title {
@@ -175,7 +175,7 @@ background-repeat: no-repeat;
     width: 160px;
     height: 120px;
     flex-shrink: 0;
-    background: url(../img/custom__nikes/stars.svg) url(../img/custom__nikes/paints.svg) url(../img/custom__nikes/Georgian.png), lightgray 50% / cover no-repeat;
+    background: url(../img/custom__nikes/stars.svg) url(../img/custom__nikes/paints.svg) url(../img/custom__nikes/georgian.png), lightgray 50% / cover no-repeat;
     width: 240px;
     height: 240px;
     flex-shrink: 0;
@@ -188,21 +188,21 @@ background-repeat: no-repeat;
     width: 1440px;
     height: 520px;
     flex-shrink: 0;
-    background: url(../img/Reviews__section/flowers21.png), lightgray 0px -9px / 100% 255.769% no-repeat;
+    background: url(../img/reviews__section/group61.png), lightgray 0px -9px / 100% 255.769% no-repeat;
 }
 
 .reviews__section__title {
     width: 175px;
-height: 65px;
-flex-shrink: 0;
-color: #FFF;
+    height: 65px;
+    flex-shrink: 0;
+    color: #FFF;
 
-text-align: center;
-font-family: "Playfair Display";
-font-size: 48px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    text-align: center;
+    font-family: "Playfair Display";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 
 }
 
@@ -213,12 +213,12 @@ line-height: normal;
 
 .reviews__section__item {
     width: 255px;
-height: 292px;
-flex-shrink: 0;
-border-radius: 15px;
-background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
+    height: 292px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
 
-box-shadow: 0px 30px 0px -13px #533978, 0px 14px 0px -5px #7B54B2;
+    box-shadow: 0px 30px 0px -13px #533978, 0px 14px 0px -5px #7B54B2;
 }
 
 
@@ -231,14 +231,14 @@ box-shadow: 0px 30px 0px -13px #533978, 0px 14px 0px -5px #7B54B2;
     flex-shrink: 0;
     display: flex;
     gap: 30px;
-  
+
 }
 
 .reviews__section__img:nth-child(1)::before {
     border-radius: 15px;
     background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
     background-position: center;
-margin-right: 93px;
+    margin-right: 93px;
 
 }
 
@@ -270,19 +270,28 @@ margin-right: 93px;
 /* Order__section */
 
 .order__section {
-    background-image: url(../img/Order__section/Group21.png);
+    background-image: url(../img/order__section/group21.png);
 }
+
 .order__section__title {
     color: #FFF;
-font-family: "Playfair Display";
-font-size: 48px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    font-family: "Playfair Display";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
-.order__section__list {
+
+.order__section__list {}
+
+.order__section__item::before {}
+
+.order__section__item:first-child::before {
+    width: 690px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FFF;
 }
-.order__section__item {
-}
-.order__section__button {
-}
+
+.order__section__button {}
