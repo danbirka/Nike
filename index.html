@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
- 
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Playfair+Display&family=Roboto:wght@300;400&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet" href="./css/reset.css">
-        <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
@@ -21,8 +21,8 @@
 
     <header class="header">
         <div class="container">
-            <a href="./index.html">
-            </a>
+            <a class="header__logo__link" href="./index.html"><img class="header__logo__img" src="./img/header/logo.png"
+                    alt="logo"></a>
             <nav class="header__nav">
                 <ul class="header__list">
                     <li class="header__item"> <a class="header__nav__link" href="#">Main page</a></li>
@@ -30,10 +30,14 @@
                     <li class="header__item"> <a class="header__nav__link" href="#">Advantages</a></li>
                     <li class="header__item"> <a class="header__nav__link" href="#">Reviews</a></li>
                     <li class="header__item"> <a class="header__nav__link" href="#">Contacts</a></li>
+
                     <li class="header__item"> <a class="header__nav__link" href="#">Order</a></li>
-                    <li class="header__item"> <a class="header__nav__link" href="#">Ua Eng </a></li>
                 </ul>
             </nav>
+            <ul class="header__languages__list">
+                <li class="header__languages__item">Ua</li>
+                <li class="header__languages__item">Eng</li>
+            </ul>
         </div>
     </header>
 
@@ -79,19 +83,19 @@
                 <h2 class="reviews__section__title">Reviews</h2>
                 <ul class="reviews__section__list">
                     <li class="reviews__section__item">
-                        <img class="reviews__section__img" src="./img/Reviews__section/rectangle8.png" alt="photo">
+
                         <h3 class="reviews__section__title">Sneakers are very
                             comfortable and well
                             painted, nothing has
                             worn off in a year.</h3>
                     </li>
                     <li class="reviews__section__item">
-                        <img class="reviews__section__img" src="./img/Reviews__section/rectangle9.png" alt="photo">
+
                         <h3 class="reviews__section__title">I'm very happy with this color scheme.
                             They match all my clothes.</h3>
                     </li>
                     <li class="reviews__section__item">
-                        <img class="reviews__section__img" src="./img/Reviews__section/rectangle10.png" alt="photo">
+
                         <h3 class="reviews__section__title">Just right if you need to go to a party.
                             I use them actively, the paint is super.</h3>
                     </li>
@@ -100,13 +104,7 @@
         </section>
         <section class="order__section">
             <h2 class="order__section__title">Order</h2>
-            <ul class="order__section__list">
-                <li class="order__section__item">Write your email</li>
-                <li class="order__section__item">Your Country</li>
-                <li class="order__section__item">Your City</li>
-                <li class="order__section__item">Your Adress</li>
-                <button class="order__section__button">Order my Nike</button>
-            </ul>
+            <form action=""></form>
         </section>
     </main>
 

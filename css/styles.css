@@ -1,73 +1,82 @@
-.container {
-    width: 1200px;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
-    display: flex;
+body {
+    font-family: "Roboto", sans-serif;
 }
 
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 
 /* header */
 
 .header {
-    width: 1440px;
-    height: 93px;
-    flex-shrink: 0;
-    background: #012D63;
-    background-position: center;
+    background-color: #012D63;
     padding-top: 30px;
     padding-bottom: 33px;
-}
-
-.header__image {
-    width: 100px;
-    height: 60px;
-    flex-shrink: 0;
-    background: url(../img/header/logo.png), lightgray 50% / cover no-repeat;
-
 
 }
 
-.header__nav {}
+.header .container {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo__link {
+    margin-right: 152px;
+}
+
+.header__nav {
+    margin-right: 73px;
+}
 
 .header__list {
     display: flex;
     gap: 30px;
     align-items: center;
+
 }
 
-.header__item {}
-
-.header__nav__link {
-    width: 112px;
-    height: 30px;
-    flex-shrink: 0;
-    color: #FFF;
-
-    font-family: Roboto;
+.header__item {
+    color: #C7C7C7;
     font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    font-weight: 300;
+
 }
+
+.header__nav__link:hover,
+.header__nav__link:focus {
+    color: #FFF;
+}
+
+.header__languages__list {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header__languages__item {
+    color: #DCDCDC;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.header__languages__item:last-child {
+    color: #FFF;
+}
+
+
+
 
 /* hero */
 
 .hero__section {
     background: url(../img/hero__section/group1.png), lightgray 50% / cover no-repeat;
-    width: 1440px;
-    height: 858px;
-    flex-shrink: 0;
-
 
 }
 
 .hero__section__img {
-    width: 160px;
-    height: 120px;
-    flex-shrink: 0;
     background: url(../img/hero__section/group1.png), lightgray 50% / cover no-repeat;
-
 
 }
 
@@ -137,93 +146,77 @@
 
 .custom__nikes {
     background: url(../img/custom__nikes/group81.png), lightgray 0px -384px / 100% 227.888% no-repeat;
-    width: 1440px;
     height: 606px;
-    flex-shrink: 0;
 }
 
 .custom__nikes__list {
     display: flex;
     border: 5px solid #8E32C6;
     padding: 50px;
-    background-repeat: no-repeat;
-
 }
 
 .custom__nikes__item {
-    display: flex;
     border-right: 1px solid #FFF;
-
 }
 
 .custom__nikes__title {
-    width: 159px;
-    height: 102px;
-    flex-shrink: 0;
     color: #FFF;
 
     text-align: center;
     font-family: "Playfair Display";
     font-size: 36px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
 
 }
 
 .custom__nikes__img {
-    width: 160px;
-    height: 120px;
-    flex-shrink: 0;
-    background: url(../img/custom__nikes/stars.svg) url(../img/custom__nikes/paints.svg) url(../img/custom__nikes/georgian.png), lightgray 50% / cover no-repeat;
     width: 240px;
     height: 240px;
-    flex-shrink: 0;
-
-
-
 }
 
 .reviews {
-    width: 1440px;
     height: 520px;
-    flex-shrink: 0;
     background: url(../img/reviews__section/group61.png), lightgray 0px -9px / 100% 255.769% no-repeat;
 }
 
 .reviews__section__title {
-    width: 175px;
-    height: 65px;
-    flex-shrink: 0;
     color: #FFF;
 
     text-align: center;
     font-family: "Playfair Display";
     font-size: 48px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
 
 }
 
 .reviews__section__list {
     display: flex;
-
+    gap: 93px;
 }
 
 .reviews__section__item {
     width: 255px;
     height: 292px;
-    flex-shrink: 0;
     border-radius: 15px;
-    background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
 
-    box-shadow: 0px 30px 0px -13px #533978, 0px 14px 0px -5px #7B54B2;
 }
 
+.reviews__section__item:nth-child(1) {
+    background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
+    box-shadow: 0px 14px 0px -5px #7B54B2, 0px 30px 0px -13px #533978;
+}
 
+.reviews__section__item:nth-child(2) {
+    background: linear-gradient(137deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
+    box-shadow: 0px 14px 0px -5px #9159B1, 0px 30px 0px -13px #61337C;
+}
 
-.reviews__section__img::before {
+.reviews__section__item:nth-child(3) {
+    background: linear-gradient(143deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
+    box-shadow:  0px 14px 0px -5px #B95A4C, 0px 30px 0px -13px #732F26;
+}
+
+.reviews__section__img {
     content: "";
     display: block;
     width: 255px;
@@ -234,37 +227,10 @@
 
 }
 
-.reviews__section__img:nth-child(1)::before {
-    border-radius: 15px;
-    background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
-    background-position: center;
-    margin-right: 93px;
-
-}
-
-.reviews__section__img:nth-child(2)::before {
-    border-radius: 15px;
-    background: linear-gradient(137deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
-    box-shadow: 0px 30px 0px -13px #61337C, 0px 14px 0px -5px #9159B1;
-    background-position: center;
-    margin-right: 93px;
-}
-
-.reviews__section__img:nth-child(3)::before {
-    border-radius: 15px;
-    background: linear-gradient(143deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
-    box-shadow: 0px 30px 0px -13px #732F26, 0px 14px 0px -5px #B95A4C;
-    background-position: center;
-}
-
 .reviews__section__title {
     color: #FFF;
-
-    font-family: Roboto;
     font-size: 24px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
 }
 
 /* Order__section */
@@ -292,6 +258,7 @@
     flex-shrink: 0;
     border-radius: 50px;
     background: #FFF;
+    display: flex;
 }
 
 .order__section__button {}
