@@ -186,7 +186,10 @@ body {
     font-family: "Playfair Display";
     font-size: 48px;
     font-weight: 400;
-
+padding-top: 49px;
+padding-bottom: 71px;
+padding-left: 13px;
+padding-right: 13px;
 }
 
 .reviews__section__list {
@@ -231,6 +234,19 @@ body {
     color: #FFF;
     font-size: 24px;
     font-weight: 400;
+  
+}
+
+.revievs__section__subtitle {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+}
+.revievs__section__image {
+    padding-left: 18px;
+    padding-bottom: 29px;
+    padding-right: 5px;
+
 }
 
 /* Order__section */
