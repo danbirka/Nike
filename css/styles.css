@@ -246,24 +246,3 @@ padding-right: 13px;
 
 /* Order__section */
 
-.order__section {
-    background-image: url(../img/order__section/group21.png);
-}
-
-.order__section__title {
-    color: #FFF;
-    font-size: 48px;
-    font-weight: 400;
-}
-
-.order__section__list {}
-
-.order__section__item::before {}
-
-.order__section__item:first-child::before {
-    border-radius: 50px;
-    background: #FFF;
-    display: flex;
-}
-
-.order__section__button {}
